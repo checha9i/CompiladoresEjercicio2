@@ -1,0 +1,126 @@
+/******************************************
+ * Ejemplo desarrollado por Erick Navarro *
+ * Blog: e-navarro.blogspot.com           *
+ * Julio - 2018                           *
+ ******************************************/
+
+Declare Number a;
+Declare Number b;
+Declare Number c;
+Declare Number d;
+Declare Number e;
+
+a=1;
+b=2;
+c=3;
+d=4;
+e=5;
+
+if(a==1){
+	Print("a==1");
+}
+
+if(b==2){
+	Print("b==2");
+}
+else{
+	Print("b<>2");
+}
+
+if(b==3){
+	Print("b==3");
+}
+else{
+	Print("b<>3");
+}
+
+if(c==1){
+	Print("c==1");
+}elseif(c==2){
+	Print("c==2");
+}elseif(c==3){
+	Print("c==3");
+}elseif(c==4){
+	Print("c==4");
+}else{
+	Print("El valor de c es: " & c);
+}
+
+if(e==1){
+	Print("e==1");
+}elseif(e==2){
+	Print("e==2");
+}elseif(e==3){
+	Print("e==3");
+}elseif(e==4){
+	Print("e==4");
+}else{
+	Print("El valor de e es: " & e);
+}
+
+/******************************************
+ * Ejemplo desarrollado por Erick Navarro *
+ * Blog: e-navarro.blogspot.com           *
+ * Julio - 2018                           *
+ ******************************************/
+
+Print("Tablas de" & " multiplicar");
+
+a=0;
+c=1;
+
+Print("----------------");
+
+While(a<4+c){	
+	a=a+1;
+	Declare number b;
+	b=0;
+	While(b<4+c){
+		b=b+1;
+		Print(a & " * " & b & " = " & a * b);
+	}
+	Print("----------------");
+}
+
+/******************************************
+ * Ejemplo desarrollado por Erick Navarro *
+ * Blog: e-navarro.blogspot.com           *
+ * Julio - 2018                           *
+ ******************************************/
+
+Print("Tablas de" & " multiplicar");
+
+a=0;
+c=1;
+
+Print("----------------");
+
+Do{	
+	a=a+1;
+	b=0;
+	Do{
+		b=b+1;
+		Print(a & " * " & b & " = " & a * b);
+	}While(b<4+c);
+	Print("----------------");
+}While(a<4+c);
+
+
+/******************************************
+ * Ejemplo desarrollado por Erick Navarro *
+ * Blog: e-navarro.blogspot.com           *
+ * Julio - 2018                           *
+ ******************************************/
+
+Print("Tablas de" & " multiplicar");
+
+c=1;
+
+Print("----------------");
+
+For(a=0;a<4+c;a=a+1){	
+	For(b=0;b<4+c;b=b+1){
+		Print(a & " * " & b & " = " & a * b);
+	}
+	Print("----------------");
+}
